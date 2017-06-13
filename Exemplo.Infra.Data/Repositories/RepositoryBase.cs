@@ -1,12 +1,9 @@
 ﻿using Exemplo.Domain.Interfaces.Repositories;
 using Exemplo.Infra.Data.Context;
-using Exemplo.Infra.Data.EntityConfig;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Exemplo.Infra.Data.Repositories
 {
