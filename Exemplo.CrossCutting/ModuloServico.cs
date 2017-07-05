@@ -1,4 +1,6 @@
-﻿using Ninject.Modules;
+﻿using Exemplo.Domain.Interfaces.Services;
+using Exemplo.Domain.Services;
+using Ninject.Modules;
 
 namespace Exemplo.CrossCutting
 {
@@ -6,7 +8,7 @@ namespace Exemplo.CrossCutting
     {
         public override void Load()
         {
-            //Bind<IProdutoServico>().To<ProdutoServico>();
+            Bind<IProductService>().To<ProductService>();
         }
     }
 }

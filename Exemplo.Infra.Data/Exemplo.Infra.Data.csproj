@@ -50,9 +50,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Context\ExemploContext.cs" />
+    <Compile Include="EntityConfig\CategoryConfiguration.cs" />
     <Compile Include="EntityConfig\ProductConfiguration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repositories\RepositoryBase.cs" />
+    <Compile Include="Repositories\CategoryRepository.cs" />
+    <Compile Include="Repositories\ProductRepository.cs" />
+    <Compile Include="Repositories\BaseRepository.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
@@ -63,6 +66,10 @@
     <ProjectReference Include="..\Exemplo.Domain\Exemplo.Domain.csproj">
       <Project>{8B4A3946-3168-469B-9504-6AE63F028735}</Project>
       <Name>Exemplo.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Exemplo.Test\Exemplo.Test.csproj">
+      <Project>{D47B4C00-A3F2-478D-A9B0-7096917AAE07}</Project>
+      <Name>Exemplo.Test</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

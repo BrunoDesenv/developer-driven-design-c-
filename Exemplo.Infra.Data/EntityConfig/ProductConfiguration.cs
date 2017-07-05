@@ -14,8 +14,13 @@ namespace Exemplo.Infra.Data.EntityConfig
                 .IsRequired()
                 .HasMaxLength(100);
 
-            Property(x => x.Valor)
+            Property(x => x.Price)
                 .IsRequired();
+
+            Property(x => x.Active)
+                .IsRequired();
+
+            HasRequired(x => x.Category).WithMany().HasForeignKey(x => x.IdCategory );
         }
     }
 }

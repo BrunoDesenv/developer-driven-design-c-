@@ -1,0 +1,6 @@
+C:\Projetos\Exemplo\Exemplo.Domain\bin\Debug\Exemplo.Domain.dll
+C:\Projetos\Exemplo\Exemplo.Domain\bin\Debug\Exemplo.Domain.pdb
+C:\Projetos\Exemplo\Exemplo.Domain\bin\Debug\DomainValidation.dll
+C:\Projetos\Exemplo\Exemplo.Domain\obj\Debug\Exemplo.Domain.csprojResolveAssemblyReference.cache
+C:\Projetos\Exemplo\Exemplo.Domain\obj\Debug\Exemplo.Domain.dll
+C:\Projetos\Exemplo\Exemplo.Domain\obj\Debug\Exemplo.Domain.pdb

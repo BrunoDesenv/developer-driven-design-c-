@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "Register";
+}
+
+@using (Html.BeginForm("Register", "Category", FormMethod.Post))
+{
+    <fieldset>
+        <legend>Cadastro de Categoria</legend>
+        <div class="form-group">
+            <p>
+                <input type="text" value="" placeholder="Description" name="Description" id="Description" />
+            </p>
+        </div>
+    </fieldset>
+    <button type="submit">
+        Send
+    </button>
+}

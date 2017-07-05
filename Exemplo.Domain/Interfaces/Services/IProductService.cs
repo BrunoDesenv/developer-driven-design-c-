@@ -1,6 +1,8 @@
-﻿namespace Exemplo.Domain.Interfaces.Services
+﻿using Exemplo.Domain.Entities;
+
+namespace Exemplo.Domain.Interfaces.Services
 {
-    public interface IProductService
+    public interface IProductService : IBaseService<Product>
     {
     }
 }
