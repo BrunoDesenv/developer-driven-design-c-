@@ -17,17 +17,13 @@ namespace Exemplo.MVC.Controllers
             _logService = logService;
         }
 
-        public ActionResult Index()
-        {
-            return View();
-        }
-
         [HttpGet]
         public ActionResult Register()
         {
             return View();
         }
 
+        [HttpPost]
         public JsonResult Register(Product product)
         {
             try

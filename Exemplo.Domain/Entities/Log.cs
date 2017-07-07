@@ -5,14 +5,14 @@ namespace Exemplo.Domain.Entities
 {
     public class Log
     {
-        public int IdLog { get; set; }
+        public int Id { get; set; }
         public int IdAcao { get; set; }
         public string IP { get; set; }
         public string Browser { get; set; }
         public string Mensagem { get; set; }
         public DateTime DataCadastro { get; set; }
-        public int? IdUsuario { get; set; }
-        public virtual Responsavel Responsavel { get; set; }
+        public int? IdResponsible { get; set; }
+        public virtual Responsible Responsible { get; set; }
 
         public enum Acao
         {

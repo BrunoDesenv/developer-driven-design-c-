@@ -51,9 +51,11 @@
   <ItemGroup>
     <Compile Include="Context\ExemploContext.cs" />
     <Compile Include="EntityConfig\CategoryConfiguration.cs" />
+    <Compile Include="EntityConfig\LogConfiguration.cs" />
     <Compile Include="EntityConfig\ProductConfiguration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\CategoryRepository.cs" />
+    <Compile Include="Repositories\LogRepository.cs" />
     <Compile Include="Repositories\ProductRepository.cs" />
     <Compile Include="Repositories\BaseRepository.cs" />
   </ItemGroup>

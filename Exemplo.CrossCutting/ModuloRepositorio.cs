@@ -1,5 +1,5 @@
-﻿using Exemplo.Domain.Interfaces.Services;
-using Exemplo.Domain.Services;
+﻿using Exemplo.Domain.Interfaces.Repositories;
+using Exemplo.Infra.Data.Repositories;
 using Ninject.Modules;
 
 namespace Exemplo.CrossCutting
@@ -8,7 +8,9 @@ namespace Exemplo.CrossCutting
     {
         public override void Load()
         {
-            Bind<IProductService>().To<ProductService>();
+            Bind<IProductRepository>().To<ProductRepository>();
+            Bind<ICategoryRepository>().To<CategoryRepository>();
+            Bind<ILogRepositoy>().To<LogRepository>();
         }
     }
 }

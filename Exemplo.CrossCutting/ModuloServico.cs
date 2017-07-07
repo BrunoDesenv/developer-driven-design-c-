@@ -9,6 +9,8 @@ namespace Exemplo.CrossCutting
         public override void Load()
         {
             Bind<IProductService>().To<ProductService>();
+            Bind<ICategoryService>().To<CategoryService>();
+            Bind<ILogService>().To<LogService>();
         }
     }
 }

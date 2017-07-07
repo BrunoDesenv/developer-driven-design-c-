@@ -11,11 +11,11 @@ namespace Exemplo.MVC.Controllers
 
     public class BaseController : Controller
     {
-        private readonly ILogService _logServico;
+        private readonly ILogService _logService;
 
-        public BaseController(ILogService logServico)
+        public BaseController(ILogService logService)
         {
-            _logServico = logServico;
+            _logService = logService;
         }
 
         public void SalvarCookie(string idCliente)
@@ -54,7 +54,7 @@ namespace Exemplo.MVC.Controllers
                                         ex.InnerException != null ? ex.InnerException.Message : "")
             };
 
-            _logServico.Cadastrar(log);
+            _logService.Cadastrar(log);
         }
 
         public JsonResult RetornoPadrao(Exception ex)

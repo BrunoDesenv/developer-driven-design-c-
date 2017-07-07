@@ -10,6 +10,8 @@ namespace Exemplo.Infra.Data.Context
     {
         public DbSet<Product> Product { get; set; }
         public DbSet<Category> Category { get; set; }
+        public DbSet<Log> Log { get; set; }
+
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

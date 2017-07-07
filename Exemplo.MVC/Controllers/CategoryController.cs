@@ -1,20 +1,36 @@
 ﻿using Exemplo.Domain.Entities;
+using Exemplo.Domain.Interfaces.Services;
 using System;
 using System.Web.Mvc;
 
 namespace Exemplo.MVC.Controllers
 {
-    public class CategoryController : Controller
-    {  
+    public class CategoryController : BaseController
+    {
+
+        private ICategoryService _categoryService;
+        private ILogService _logService;
+
+        public CategoryController(ICategoryService categoryService, ILogService logService) : base(logService)
+        {
+            _categoryService = categoryService;
+            _logService = logService;
+        }
+
+        [HttpGet]
+        public ActionResult Register()
+        {
+            return View();
+        }
 
         [HttpPost]
         public JsonResult Register(Category category)
         {
             try
             {
-                _produtoService.Add(product);
+                _categoryService.Add(category);
 
-                return RedirectToAction("Detalhes", "Produto", new { produtoId = comentario.ProdutoId });
+                return Json(new { StatusCode = 200 }, JsonRequestBehavior.AllowGet);
             }
             catch (Exception erro)
             {

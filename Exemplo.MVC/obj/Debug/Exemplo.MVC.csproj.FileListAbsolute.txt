@@ -1,3 +1,6 @@
+C:\Projetos\Exemplo\Exemplo.MVC\obj\Debug\Exemplo.MVC.csprojResolveAssemblyReference.cache
+C:\Projetos\Exemplo\Exemplo.MVC\obj\Debug\Exemplo.MVC.Resources.EmailResources.resources
+C:\Projetos\Exemplo\Exemplo.MVC\obj\Debug\Exemplo.MVC.csproj.GenerateResource.Cache
 C:\Projetos\Exemplo\Exemplo.MVC\bin\roslyn\csc.exe
 C:\Projetos\Exemplo\Exemplo.MVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
 C:\Projetos\Exemplo\Exemplo.MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
@@ -31,7 +34,9 @@ C:\Projetos\Exemplo\Exemplo.MVC\bin\System.Web.WebPages.dll
 C:\Projetos\Exemplo\Exemplo.MVC\bin\System.Web.WebPages.Razor.dll
 C:\Projetos\Exemplo\Exemplo.MVC\bin\WebActivatorEx.dll
 C:\Projetos\Exemplo\Exemplo.MVC\bin\WebGrease.dll
+C:\Projetos\Exemplo\Exemplo.MVC\bin\Exemplo.Infra.Data.dll
 C:\Projetos\Exemplo\Exemplo.MVC\bin\DomainValidation.dll
+C:\Projetos\Exemplo\Exemplo.MVC\bin\EntityFramework.dll
 C:\Projetos\Exemplo\Exemplo.MVC\bin\Exemplo.CrossCutting.pdb
 C:\Projetos\Exemplo\Exemplo.MVC\bin\Exemplo.Domain.pdb
 C:\Projetos\Exemplo\Exemplo.MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
@@ -47,8 +52,7 @@ C:\Projetos\Exemplo\Exemplo.MVC\bin\System.Web.WebPages.Deployment.xml
 C:\Projetos\Exemplo\Exemplo.MVC\bin\System.Web.WebPages.Razor.xml
 C:\Projetos\Exemplo\Exemplo.MVC\bin\Antlr3.Runtime.pdb
 C:\Projetos\Exemplo\Exemplo.MVC\bin\Newtonsoft.Json.xml
-C:\Projetos\Exemplo\Exemplo.MVC\obj\Debug\Exemplo.MVC.csprojResolveAssemblyReference.cache
-C:\Projetos\Exemplo\Exemplo.MVC\obj\Debug\Exemplo.MVC.Resources.EmailResources.resources
-C:\Projetos\Exemplo\Exemplo.MVC\obj\Debug\Exemplo.MVC.csproj.GenerateResource.Cache
+C:\Projetos\Exemplo\Exemplo.MVC\bin\Exemplo.Infra.Data.pdb
+C:\Projetos\Exemplo\Exemplo.MVC\bin\EntityFramework.xml
 C:\Projetos\Exemplo\Exemplo.MVC\obj\Debug\Exemplo.MVC.dll
 C:\Projetos\Exemplo\Exemplo.MVC\obj\Debug\Exemplo.MVC.pdb

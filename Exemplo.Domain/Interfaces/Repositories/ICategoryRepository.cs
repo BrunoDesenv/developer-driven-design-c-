@@ -2,8 +2,7 @@
 
 namespace Exemplo.Domain.Interfaces.Repositories
 {
-    public interface IProductRepository : IBaseRepository<Product>
+    public interface ICategoryRepository : IBaseRepository<Category>
     {
-
     }
 }
