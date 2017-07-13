@@ -7,6 +7,8 @@ namespace Exemplo.Domain.Specifications.Products
     public class ProductMustHaveDiscountSpecification : ISpecification<Product>
     {
         private readonly IProductRepository _productRepository;
+        private int categoryVip = 2;
+
 
         public ProductMustHaveDiscountSpecification(IProductRepository productRepository)
         {
@@ -15,7 +17,14 @@ namespace Exemplo.Domain.Specifications.Products
 
         public bool IsSatisfiedBy(Product product)
         {
-            return product.Discount != 0M;
+            if (product.IdCategory == categoryVip)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 }

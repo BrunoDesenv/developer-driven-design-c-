@@ -12,7 +12,7 @@ namespace Exemplo.Test.MVC
         public void Register()
         {
             IWebDriver driver = new ChromeDriver();
-            driver.Navigate().GoToUrl("http://localhost/Product/Register");
+            driver.Navigate().GoToUrl("http://localhost:54593/Product/Register");
             driver.Manage().Window.Maximize();
 
             IWebElement name = driver.FindElement(By.Id("name"));
@@ -23,6 +23,8 @@ namespace Exemplo.Test.MVC
 
             var enter = driver.FindElement(By.Id("enter"));
             enter.Equals("Enter");
+
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(1000);
 
             enter.Click();
 

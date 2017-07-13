@@ -20,7 +20,9 @@ namespace Exemplo.Infra.Data.EntityConfig
             Property(x => x.Active)
                 .IsRequired();
 
-            HasRequired(x => x.Category).WithMany().HasForeignKey(x => x.IdCategory );
+            HasRequired(x => x.Category)
+                .WithMany()
+                .HasForeignKey(x => x.IdCategory);
         }
     }
 }

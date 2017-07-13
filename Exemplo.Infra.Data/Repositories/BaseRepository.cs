@@ -14,7 +14,7 @@ namespace Exemplo.Infra.Data.Repositories
         protected ExemploContext Db = new ExemploContext();
 
         public void Add(TEntity obj)
-        {
+        { 
             Db.Set<TEntity>().Add(obj);
             Db.SaveChanges();
         }

@@ -1,4 +1,5 @@
 ﻿using Exemplo.Domain.Entities;
+using Exemplo.Infra.Data.EntityConfig;
 using System;
 using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
@@ -28,6 +29,10 @@ namespace Exemplo.Infra.Data.Context
 
             modelBuilder.Properties<string>()
                .Configure(x => x.HasMaxLength(100));
+
+            modelBuilder.Configurations.Add(new CategoryConfiguration());
+            modelBuilder.Configurations.Add(new LogConfiguration());
+            modelBuilder.Configurations.Add(new ProductConfiguration());
         }
 
         public override int SaveChanges()

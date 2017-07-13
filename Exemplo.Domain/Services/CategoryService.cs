@@ -12,5 +12,6 @@ namespace Exemplo.Domain.Services
         {
             _categoryRepository = categoryRepository;
         }
+
     }
 }

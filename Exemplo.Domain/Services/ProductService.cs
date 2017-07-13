@@ -1,4 +1,5 @@
-﻿using Exemplo.Domain.Entities;
+﻿using System;
+using Exemplo.Domain.Entities;
 using Exemplo.Domain.Interfaces.Repositories;
 using Exemplo.Domain.Interfaces.Services;
 
@@ -11,6 +12,13 @@ namespace Exemplo.Domain.Services
         public ProductService(IProductRepository productRepository) : base(productRepository)
         {
             _productRepository = productRepository;
+        }
+
+
+        private void Teste()
+        {
+            var produto = new Product();
+
         }
     }
 }
