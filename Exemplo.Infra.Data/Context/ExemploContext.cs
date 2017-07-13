@@ -29,7 +29,7 @@ namespace Exemplo.Infra.Data.Context
 
             modelBuilder.Properties<string>()
                .Configure(x => x.HasMaxLength(100));
-
+             
             modelBuilder.Configurations.Add(new CategoryConfiguration());
             modelBuilder.Configurations.Add(new LogConfiguration());
             modelBuilder.Configurations.Add(new ProductConfiguration());
